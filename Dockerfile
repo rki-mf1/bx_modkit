@@ -1,6 +1,6 @@
 FROM continuumio/miniconda3:25.3.1-1
-ENV VERSION=3.13.5
-ENV TOOL=python
+ENV VERSION=0.5.0
+ENV TOOL=ont-modkit
 ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt update --allow-releaseinfo-change && apt install -y procps wget gzip pigz bc && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
