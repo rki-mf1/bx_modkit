@@ -31,6 +31,7 @@ This need to be configured only once per repository!
 * modify the Dockerfile the following way:
   * change `ENV VERSION 3.7` to your tool version e.g. `ENV VERSION 1.10.7`
   * change `ENV TOOL python` to your tool name e.g. `ENV TOOL samtools`
+
   
 Done. Happy container building!
 
