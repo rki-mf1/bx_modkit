@@ -1,5 +1,5 @@
 FROM continuumio/miniconda3:25.3.1-1
-ENV VERSION=0.5.0
+ENV VERSION=0.6.3
 ENV TOOL=ont-modkit
 ARG DEBIAN_FRONTEND=noninteractive
 
